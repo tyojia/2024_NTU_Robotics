@@ -51,12 +51,12 @@ def main(args=None):
     send_script("Vision_DoJob(job1)")
     cv2.waitKey(1)
     
-    # targetP2 = "410, 200, 500, -180.00, 0.0, 45.00"
-    # script2 = "PTP(\"CPP\","+targetP2+",100,200,0,false)"
+    targetP2 = "410, 200, 500, -180.00, 0.0, 45.00"
+    script2 = "PTP(\"CPP\","+targetP2+",100,200,0,false)"
 
-    # send_script(script2)
+    send_script(script2)
 
-    # send_script("Vision_DoJob(job1)")
+    send_script("Vision_DoJob(job1)")
     cv2.waitKey(1)
 
     rclpy.shutdown()
